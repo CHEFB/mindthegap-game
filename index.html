@@ -1,13 +1,8 @@
-<html> 
+<!DOCTYPE html>
+<html lang = "en">
 <head>
-    <!-- Required meta tags always come first -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Mind the Gap</title>
-
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+	<meta charset = "utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -23,197 +18,449 @@
 <!-- Google Fonts --> 
 <link href='https://fonts.googleapis.com/css?family=Orbitron:400,900' rel='stylesheet' type='text/css'>
 
-
-	  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
-
-
 <style>
-.button-collapse {
-    font-size: 2rem;
+canvas {
+    border:4px solid #000000;
+    background-color: #FFFFFF;
+    padding: 0;
+    margin: auto;
+    display: block;
+    width: 800px;
+    height: 470px;
     position: absolute;
-    padding: 1.5rem;
-    color: #fff;
-
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
-.button-collapse:hover {
-color: #fff;
-    
+header {
+    font-family: 'Orbitron', sans-serif;
+    font-size: 30px;
 }
-
-body{
-    background-image: url("http://kaba35.com/wp-content/uploads/2015/11/Savin-NY-Website-Background-Web.jpg");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
+#progress {
+    width: 300px ;
+    position: absolute;
+    visibility: hidden;
 }
-h1{color: black;
-	font-family: "Orbitron", sans-serif;
-	font-size:100px;
-	} 
-p.p1{color:#028482;
-	font-size: 30px;
-	font-style: italic;
-	font-family: "Orbitron", sans-serif;;
+#intro {
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
 }
-p.p2{color:black;
-	font-size: 20px;
-	font-style: oblique;
-	font-family: "Orbitron", sans-serif;;
-	
-}
-p.p3{color:white;
-	font-size: 100px;
-	font-style: italic;
-    font-family: "Orbitron", sans-serif;
-}
-
-h2{color:#028482;
-	font-style: oblique;
-	font-family: "Orbitron", sans-serif;
-	} 
-ol{color: black;
-	font-family: "Orbitron", sans-serif;
-}
-h3{color:white;
-    font-family: "Orbitron", sans-serif;
-	font-size:100px
-	} 
-h4{color:white;
-    font-family: "Orbitron", sans-serif;
-	font-style: italic;
-	font-size:100px
-	} 
-
-/* selected link */
-a:active {
-    color: white;
-	background-color:yellow;
-	}
-div.header{
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    color: black;
-    text-align:center;
-
-	
-}
-div.body{
-    color:black;
-    text-align:left;
-    padding:30px;
-	width:800px;
-	margin-left:350px;
-	margin-top: 20px;
-    border: 5px double white;
-    margin: auto;
-    width: 50%;
-    background: rgba(255, 255, 255, 0.5)
-    
-}
-div.pictures{
-    margin: auto;
-    position:relative;
-    padding: 10px 10px 10px 10px;
-    margin-top: 20px;
-    margin-bottom: 30px;
-    height:400px;
-	
-nav.navbar navbar-inverse{
-	height:700px
-	}
-
-
 </style>
 </head>
+
 <body>
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">CHEF B</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="website2.1.html">Home</a></li>
-        <li><a href="about us page.html">About Us</a></li>
-        <li><a href="10-50.html" target="_blank">Game</a></li>
-        <li class="dropdown">
-          <a class="dropdown-toggle" data-toggle="dropdown" href="#">Learn More<span class="caret"></span></a>
-          <ul class="dropdown-menu">
-            <li><a href = "http://now.org/resource/the-gender-pay-gap-myth-vs-fact/" target="_blank">Gender Pay Gap</a></li>
-            <li><a href = "http://fortune.com/tag/gender-wage-gap/" target="_blank">Doctor Salary</a></li>
-            <li><a href = "http://cdn.nerdwallet.com/infographics/paygap-infographic.jpg" target="_blank">Infographic</a></li>
-          </ul>
-        </li>
-
-      </ul>
-
-    </div>
-  </div>
-</nav>
-
-
-
-
-<div class="header">
-
-<h1><img src="https://lh3.googleusercontent.com/awJHn5XsjYDgCu7XxqFP3tzTk0Oye_F0Tm85fJQdtmziTEuaLmcbMjsdrDjsZKKyQPq63A=s855" alt="HTML5 Icon" style="width:200px;height:200px;"> The Wage Gap<img src="https://lh3.googleusercontent.com/HUAEE6TqcLCIw1C_yYm0ZP-ccTOG-u0hygfGGhwFs7EqMGR-3rKxmL9K9Lo6jew9jTwGzQ=s855" alt="HTML5 Icon" style="width:200px;height:200px;"></h1> </div>
-
-<center><div class="pictures" style="max-width:700px; max-height: 500px">
-
-<img class="slides" src="https://lh5.googleusercontent.com/-OYkIiitilF0/V5kTcFneExI/AAAAAAAAAEE/Lt4hwatu-8ELGKJZx-pTNrMLx53BDbWngCL0B/w800-h450-no/changeyellow.png" alt="YELLOW" style= "width:100%">
-<img class="slides" src="http://mn.pnstate.com/wp-content/uploads/2014/09/gender-wage-gap.png" alt="HTML5 Icon"  style= "width:100%">
-<img class="slides" src="http://www.aauw.org/files/2015/04/pay-gap-in-STEM-01-infographic-feature-image.png" alt="HTML5 Icon"  style="width:100%">
-<img class="slides" src="http://girltalkhq.com/wp-content/uploads/2015/07/Screen-Shot-2015-07-17-at-6.06.25-AM.png" alt="HTML5" style="width:100%">
-<img class="slides" src="http://smchseagleeye.com/wp-content/uploads/2016/01/Pay-Gap-Art-900x582.png" alt="HTML5" style="width:100%">
-    </div></center>
-
-
-<div class="body"><p class="p1">What is the wage gap?</p>
-<p class="p2">The wage gap is the relative difference in the average gross hourly earnings of women and men within the economy as a whole. On average, women in America are paid 79% of what their male coworkers earn.</p>
-
-
-
-
-<h2>The wage gap has narrowed tremendously since the 50s, but wages are still not equal</h2>
-<h2>Facts about the Wage Gap according to fortune.com</h2>
-<ol>
-  <li>The average woman can expect to lose out on nearly $500,000 in earnings over the course of her career.</li>
-  <li>Paying women at the same rate as men would add nearly half a trillion dollars per year to the U.S. economy.</li>
-  <li>The U.S. wage gap actually widened in 2015.</li>
-  <li> If women were paid as much as men, poverty among working single mothers would fall by a third or more.</li>
-
-</ol>
-<h2>Our Game</h2>
-<p class="p2">To address this issue we have created a game because as young women we feel like this is worth addressing.<br> If you wish to play our game click on the game tab at the top of the page.</p>
-
-
-</div>
-
+    
+    <header>
+        <center><h1><strong>Mind The Gap</strong></h1></center>
+    </header>
+<div class= "container" >
+		<div id="progress">
+			<div class= "progress-bar progress-bar-striped active" id="pb" role="progressbar" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100" style="width:0%"></div>
+	</div>
+</div>   
+<div id= "intro">
+    <img src="https://lh6.googleusercontent.com/-55uBIxRKneU/V5fYgncDJFI/AAAAAAAAAKA/aKgEJTaQETgsFwKkqsmy2hfKfMFRAtLjgCL0B/w1019-h728-no/biggs.png" alt="MindTheGap" style="height:200px;">
+<br>
+    PRESS <strong>SPACE</strong> TO JUMP. 
+<br>
+    DON'T FALL INTO THE <strong>WAGE GAP</strong>!
+<br>
+    <button onclick="startButton()"><strong>START</strong></button>
+</div>   
 <script>
-    var slideIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("slides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none"; 
-    }
-    slideIndex++;
-    if (slideIndex > x.length) {slideIndex = 1} 
-    x[slideIndex-1].style.display = "block"; 
-    setTimeout(carousel, 4500); // Change image every 25seconds
+function startButton() {
+    document.getElementById("intro").style.visibility="hidden";
+    document.getElementById("progress").style.visibility="visible";
+    startGame();
 }
+
+var links = ["https://lh5.googleusercontent.com/-XQwucnxkJyo/V5ZRCDPUsQI/AAAAAAAAAJM/zzJD0nrDvSQMT-DzZ9HkQ4aXsaMd_N2iACL0B/w475-h665-no/biggs.png",
+		 "https://lh5.googleusercontent.com/-ryW6tfzzd0s/V5ZRD050SXI/AAAAAAAAAJQ/AKeoPkFBMEUgaWYxlCBPvndF85Vcb6ivACL0B/w475-h665-no/biggsrun.png"];
+var myGamePiece;
+var myGamePieceTitle;
+var myBackground;
+var myObstacles = [];
+var coins = [];
+var timer;
+var pb = 0;
+var myScore;
+var myScoreG;
+var scoreValue;
+var scoreValueG;
+var titles = ["Intern", "Employee", "Manager", "Chairman", "Vice President", "CEO", "CEO", "CEO", "CEO", "CEO", "CEO"];
+var multiplyMoney;
+var currentTitle;
+var speedUp;
+var money = [];
+var moneyTimer;
+var gameOn;
+var gameOver;
+var retry;
+var jumpTime;
+var gameOver2;
+
+function startGame() {
+scoreValue = 0;
+scoreValueG = 0 ;
+multiplyMoney = 1;
+speedUp = 1;
+speedUp = 1;
+gameOn = 0;
+jumpTime = 1;
+
+    myObstacles.push(new component(320, 60, "#42526C", 0, 230));
+    myObstacles.push(new component(200, 60, "#42526C", 370, 230));
+	myBackground = new component(656, 270, "https://lh5.googleusercontent.com/-rpkPpBQ2SZ4/V5WkE55hIuI/AAAAAAAAAF4/sJQkrdR67tIXb9VcE6WSj8qmMbT77F6CwCL0B/w1152-h648-no/biggy%2527s%2Bproject.jpg", 0, 0, "background"); 
+    myGamePiece = new component(45, 45, links, 10, 185, "image");
+    myGamePieceTitle = new component("10px", "Orbitron", "black", myGamePiece.x+5, myGamePiece.y - 5, "text")
+    myGamePiece.gravity = 0.05;
+    myScore = new component("18px", "Orbitron", "black", 260, 40, "text");
+	myScoreG = new component("18px", "Orbitron", "black", 20, 40, "text");
+	currentTitle = titles[0];
+    myGameArea.start();
+}
+
+var myGameArea = {
+    canvas : document.createElement("canvas"),
+    start : function() {
+        this.canvas.width = 480;
+        this.canvas.height = 270;
+        this.context = this.canvas.getContext("2d");
+        document.body.insertBefore(this.canvas, document.body.childNodes[0]);
+        this.frameNo = 0;
+        this.interval = setInterval(updateGameArea, 20);
+		//new
+		if (gameOn == 0){
+		this.secondInterval = setInterval(change, 280);
+		//end
+		}
+		window.addEventListener('keydown', function (e) {
+            myGameArea.key = e.keyCode;
+        });
+        window.addEventListener('keyup', function (e) {
+            myGameArea.key = false;
+        });
+        },
+    clear : function() {
+        this.context.clearRect(0, 0, this.canvas.width, this.canvas.height);
+    },
+        stop : function() {
+		clearInterval(this.interval);
+	}
+}
+function change() {
+console.log("changing");
+myGamePiece.changeCostume();
+}
+function component(width, height, color, x, y, type, visibility) {
+    this.type = type;
+    this.score = 0;
+	//new
+	if (type == "girl") {
+        this.image = document.createElement("IMG");
+        this.image.src = links[0];
+		//console.log(this.image);
+    }
+	//end
+	if (type == "image" || type == "background") {
+		this.image = new Image();
+		this.image.src = color;
+	}
+	this.links = links;
+	this.wherelink = 0;
+    this.width = width;
+    this.height = height;
+    this.speedX = 0;
+    this.speedY = 0;
+    this.x = x;
+    this.y = y;
+    this.gravity = .05;
+    this.gravitySpeed = 0;
+    this.update = function() {
+        ctx = myGameArea.context;
+		//new
+		if (this.type == "girl"){
+            ctx.drawImage(this.image,
+                this.x,
+                this.y,
+                this.width, this.height);
+		
+        } 
+      
+		//end
+        else if (this.type == "text") {
+            ctx.font = this.width + " " + this.height;
+            ctx.fillStyle = color;
+            ctx.fillText(this.text, this.x, this.y);
+			}
+		else if (type == "image" || type == "background") {
+			ctx.drawImage(this.image, this.x, this.y, this.width, this.height);
+			if (type == "background"){
+				ctx.drawImage(this.image, this.x + this.width, this.y, this.width, this.height);
+			}
+        } else {
+            ctx.fillStyle = color;
+            ctx.fillRect(this.x, this.y, this.width, this.height);
+        }
+    }
+    this.newPos = function() {
+        this.gravitySpeed += this.gravity;
+        this.x += this.speedX;
+        this.y += this.speedY;
+		if (this.type == "background") {
+			console.log("repeat1");
+            if (this.x <= -(this.width)) {
+				console.log("repeat");
+                this.x = 0;
+            }
+        }
+
+        this.hitBottom();
+    }
+    this.hitBottom = function() {
+        var rockbottom = myGameArea.canvas.height - this.height;
+        if (this.y > rockbottom) {
+            this.y = rockbottom;
+            this.gravitySpeed = 0;
+        }
+    }
+    this.crashWith = function(otherobj) {
+        var myleft = this.x;
+        var myright = this.x + (this.width);
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        var otherleft = otherobj.x;
+        var otherright = otherobj.x + (otherobj.width);
+        var othertop = otherobj.y;
+        var otherbottom = otherobj.y + (otherobj.height);
+        var crash = 0;
+        if ((mybottom > othertop + 1)) {
+            crash = 1;
+        }
+        if ((mybottom > (othertop - 2)) && ((myright > otherleft) && (myleft < otherright))) {
+			
+            crash = 2;
+			
+        }
+		if ((((mybottom > othertop)&&(mybottom < (othertop + 3)))||(mybottom - othertop == 0)) && ((myright > otherleft) && (myleft < otherright)) && (myGameArea.key == 32)){
+			crash = 3;
+        }
+		
+        return crash;
+    }
+	this.crashBetween= function(otherobj, otherobj2) {
+        var myleft = this.x;
+        var myright = this.x + (this.width);
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        var otherleft = otherobj.x;
+        var otherright = otherobj.x + (otherobj.width);
+        var othertop = otherobj.y;
+        var otherbottom = otherobj.y + (otherobj.height);
+		var otherleft2 = otherobj2.x;
+        var otherright2 = otherobj2.x + (otherobj2.width);
+        var othertop2 = otherobj2.y;
+        var otherbottom2 = otherobj2.y + (otherobj2.height);
+        var crashh = 0;
+        if (((myleft>otherright)&&(myright<otherleft2))&& (mybottom >229)) {
+            crashh = 1;
+        }
+        
+        return crashh;
+    }
+	 this.crashCoin = function(othercoin) {
+        var myleft = this.x;
+        var myright = this.x + (this.width);
+        var mytop = this.y;
+        var mybottom = this.y + (this.height);
+        var coinleft = othercoin.x;
+        var coinright = othercoin.x + (othercoin.width);
+        var cointop = othercoin.y;
+        var coinbottom = othercoin.y + (othercoin.height);
+        var coincrash = 0;
+        if ((((mybottom > cointop) && (mytop < coinbottom)) && ((myright > coinleft) && (myleft < coinright)))&&(coincrash!=1)) {
+            coincrash = 1;
+        }
+		
+        return coincrash;
+    }
+	this.changeCostume = function() {
+	
+	this.wherelink =( this.wherelink + 1)% this.links.length;
+	//console.log(this.image + "type!!!");
+	this.image.src = this.links[this.wherelink];
+	//console.log("costume");
+	this.update();
+		
+	}
+	
+}
+
+	
+
+function myTimer() {
+    myGamePiece.speedY = 3;
+	myGamePieceTitle.speedY = 3;
+	clearInterval(timer);
+	
+}
+
+
+function updateGameArea() {
+    var x, height, gap, minHeight, maxHeight, minGap, maxGap;
+
+	//myGamePiece.speedY = 1;
+	
+    for (var i = 0; i < myObstacles.length - 1; i += 1) {
+        var crashing = myGamePiece.crashWith(myObstacles[i]);
+		var crashingbetween = myGamePiece.crashBetween(myObstacles[i], myObstacles[i+1]);
+		if (crashing==3) {
+			myGamePiece.speedY = -3;
+			myGamePieceTitle.speedY = -3;
+			timer = setInterval(myTimer, 670*jumpTime);
+			}
+        if (crashing==1) {
+            gameOn = 1;
+            myGameArea.stop();
+			gameOver = new component("30px", "Orbitron", "black", 70, 140, "text");
+			gameOver2 = new component("20px", "Orbitron", "black", 130, 175, "text")
+			retry = new component("15px", "Orbitron", "black", 125, 260, "text");
+			window.setInterval(
+				function retryKey() {
+					if (myGameArea.key == 13){
+						startGame();
+						location.reload();
+				}});
+			
+		}
+		
+        if (crashing==2){
+            myGamePiece.speedY = 0;
+            myGamePieceTitle.speedY = 0;
+			
+        }
+		else if (crashingbetween==1){
+			myGamePiece.speedY=1;
+			myGamePieceTitle.speedY = 1;
+			}
+    }
+	for (var i = 0; i < coins.length - 1; i += 1) {
+        var crashingcoin = myGamePiece.crashCoin(coins[i]);
+		
+		if (crashingcoin==1) {
+			scoreValue = (multiplyMoney*10) + scoreValue;
+			scoreValueG = (multiplyMoney*7.9) + scoreValueG;
+			coins.splice(i, 1);
+			
+	
+}
+			
+			
+			
+    }
+    myGameArea.clear();
+	myBackground.speedX = -1.3;
+	myBackground.newPos();
+    myBackground.update();
+    myGameArea.frameNo += 1;
+    if (myGameArea.frameNo == 1 || everyinterval(170)) {
+        x = myGameArea.canvas.width;
+        minWidth = (90*speedUp+5);
+        maxWidth = (125*speedUp+5);
+        width = Math.floor(Math.random()*(maxWidth-minWidth+1)+minWidth);
+		
+        
+        myObstacles.push(new component((width), 60, "#42526C", x, 230));
+    }
+	if (myGameArea.frameNo == 1 || everyinterval(190)) {
+                    coinX = myGameArea.canvas.width;
+                    coins.push(new component(10, 10, "http://www.iconarchive.com/download/i7999/hopstarter/soft-scraps/Coin.ico", coinX, (Math.floor(Math.random() * 90) + 80), "image"));
+    }
+	
+	    if(myGameArea.frameNo == 1 || everyinterval(25)){
+		pb = pb + 1;
+		document.getElementById("pb").innerHTML = pb + "%" ;
+		document.getElementById("pb").style.width = pb + "%";
+//		console.log(pb + "this is my pb");
+    }
+	
+	if (myGameArea.frameNo == 83 || everyinterval(367)) {
+                    coinX = myGameArea.canvas.width;
+                    coins.push(new component(10, 10, "http://www.iconarchive.com/download/i7999/hopstarter/soft-scraps/Coin.ico", coinX, (Math.floor(Math.random() * 90) + 80), "image"));
+    }
+    for(i = 0; (i < (myObstacles.length-1)); (i += 1)){
+        myObstacles[i].x += -speedUp;
+        myObstacles[i].update();
+    }
+    for (i = 0; i < coins.length; i += 1) {
+        coins[i].x += -speedUp;
+        coins[i].update();
+               }
+	for (i=0; i < money.length; i +=1) {
+		money[i].y += Math.random();
+		money[i].update();
+		}
+    for (var i = 0; i < titles.length; i++) {
+		if (pb == 100) {
+			pb = 0;
+			jumpTime += .1;
+			multiplyMoney = multiplyMoney*2;
+			speedUp += .5;
+			
+			currentTitle = titles[(titles.indexOf(currentTitle))+1];
+			for (i = 0; i < 30; i++) { 
+				if (everyinterval(1)) {    
+					money.push(new component(15, 7, "http://www.kellycodetectors.com/images/misc/Cartoon-Dollar.gif", (Math.floor(Math.random() * 478) + 1), (Math.floor(Math.random() * 78) + 1), "image"));
+    }
+}
+		}
+	}
+
+
+    myScore.text="♂ SALARY: $" + scoreValue.toFixed(2);
+    myScore.update();
+	
+	myScoreG.text="♀ SALARY: $" + scoreValueG.toFixed(2);
+	myScoreG.update();
+	
+	myGamePieceTitle.text=currentTitle;
+	myGamePieceTitle.newPos();
+	myGamePieceTitle.update();
+	
+	myScoreG.update();
+    myGamePiece.newPos();
+    myGamePiece.update();
+    
+	gameOver.text = "You earned $" + scoreValueG.toFixed(2);
+	gameOver.update();
+	
+	gameOver2.text = "Instead of $" + scoreValue.toFixed(2);
+	gameOver2.update();
+	
+	retry.text = "PRESS ENTER TO RETRY";
+	retry.update();
+	
+	
+}
+
+
+
+
+
+function everyinterval(n) {
+    if ((myGameArea.frameNo / n) % 1 == 0) {return true;}
+    return false;
+}
+
+function accelerate(n) {
+    myGamePiece.gravity = n;
+	}
+
+
 </script>
+<br>
 
 </body>
 </html>
