@@ -1,2 +1,2 @@
-# mindthegap-home
+# mindthegap-game
 
